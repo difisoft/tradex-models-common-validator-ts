@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.languageValidator = exports.languageSchema = void 0;
 const Ajv = require("ajv");
 exports.languageSchema = {
     "id": "http://tradex.techx.vn/common/language",

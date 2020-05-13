@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.tokenValidator = exports.tokenSchema = void 0;
 const Ajv = require("ajv");
 exports.tokenSchema = {
     "id": "http://tradex.techx.vn/common/token",

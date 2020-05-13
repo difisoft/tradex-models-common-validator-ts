@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.requestHeaderValidator = exports.requestHeaderSchema = void 0;
 const Ajv = require("ajv");
 exports.requestHeaderSchema = {
     "id": "http://tradex.techx.vn/common/requestHeader",

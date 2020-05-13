@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.userDataValidator = exports.userDataSchema = void 0;
 const Ajv = require("ajv");
 exports.userDataSchema = {
     "id": "http://tradex.techx.vn/common/userData",
