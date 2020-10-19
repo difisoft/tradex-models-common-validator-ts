@@ -1,0 +1,21 @@
+{
+  "name": "tradex-models-common-validator",
+  "version": "1.0.0",
+  "description": "${module}",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf coverage && rm -rf build && rm -rf tmp",
+    "build": "npm run clean && tsc -p ."
+  },
+  "author": "hiepnguyen@techx.vn",
+  "license": "ISC",
+  "dependencies": {
+    "tslib": "^1.10.0",
+    "ajv": "^6.10.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.14.13",
+    "tsutils": "^3.14.1"
+  }
+}
